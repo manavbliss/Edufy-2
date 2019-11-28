@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B3A1EB25F5372E09274718 /* Pods_Edufy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3736EA55414012826AB40416 /* Pods_Edufy.framework */; };
 		6406254223736BA8001E5731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406254123736BA8001E5731 /* AppDelegate.swift */; };
 		6406254423736BA8001E5731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406254323736BA8001E5731 /* SceneDelegate.swift */; };
 		6406254623736BA8001E5731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406254523736BA8001E5731 /* ViewController.swift */; };
-		6406254923736BA8001E5731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6406254723736BA8001E5731 /* Main.storyboard */; };
 		6406254B23736BAD001E5731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6406254A23736BAD001E5731 /* Assets.xcassets */; };
 		6406254E23736BAD001E5731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6406254C23736BAD001E5731 /* LaunchScreen.storyboard */; };
+		6406255E237391F0001E5731 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406255D237391F0001E5731 /* LoginViewController.swift */; };
+		640625602373A66E001E5731 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406255F2373A66E001E5731 /* CreateViewController.swift */; };
+		640625622373A827001E5731 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640625612373A827001E5731 /* HomeViewController.swift */; };
+		640625642373B061001E5731 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640625632373B061001E5731 /* QuizViewController.swift */; };
+		64D886022373DC45002E01FF /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D886012373DC45002E01FF /* Quiz2ViewController.swift */; };
+		775AEA12238A06D6009DD845 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775AEA11238A06D6009DD845 /* FirebaseAuthManager.swift */; };
+		778BB2DF237C812F00B52F91 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778BB2DE237C812F00B52F91 /* CategoriesViewController.swift */; };
+		778BB2E3237C824E00B52F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778BB2E2237C824E00B52F91 /* Main.storyboard */; };
+		77973993238D6F10009FB127 /* Quizdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77973992238D6F10009FB127 /* Quizdata.swift */; };
+		D2031B76238F7CC9000E6BD4 /* NSUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2031B75238F7CC9000E6BD4 /* NSUIColor.swift */; };
+		D29E9EBD2390051F0020A3EA /* gifext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E9EBC2390051F0020A3EA /* gifext.swift */; };
+		D29E9EBF239039040020A3EA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29E9EBE239039040020A3EA /* ResultViewController.swift */; };
+		D2B6F3F5238EF64100990811 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2B6F3F4238EF64100990811 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3736EA55414012826AB40416 /* Pods_Edufy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edufy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6406253E23736BA8001E5731 /* Edufy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edufy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6406254123736BA8001E5731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6406254323736BA8001E5731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6406254523736BA8001E5731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6406254823736BA8001E5731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6406254A23736BAD001E5731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6406254D23736BAD001E5731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6406254F23736BAD001E5731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6406255D237391F0001E5731 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6406255F2373A66E001E5731 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		640625612373A827001E5731 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		640625632373B061001E5731 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		64D886012373DC45002E01FF /* Quiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = "<group>"; };
+		775AEA11238A06D6009DD845 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		778BB2DE237C812F00B52F91 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		778BB2E2237C824E00B52F91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		77973992238D6F10009FB127 /* Quizdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizdata.swift; sourceTree = "<group>"; };
+		D2031B75238F7CC9000E6BD4 /* NSUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUIColor.swift; sourceTree = "<group>"; };
+		D29E9EBC2390051F0020A3EA /* gifext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifext.swift; sourceTree = "<group>"; };
+		D29E9EBE239039040020A3EA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D2B6F3F4238EF64100990811 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D45E01C3D61D6C5ACA48C23A /* Pods-Edufy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edufy.debug.xcconfig"; path = "Target Support Files/Pods-Edufy/Pods-Edufy.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A954D4B0A8CDF3A2C9318D /* Pods-Edufy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edufy.release.xcconfig"; path = "Target Support Files/Pods-Edufy/Pods-Edufy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B3A1EB25F5372E09274718 /* Pods_Edufy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41FA51D80162D231CC8780FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D45E01C3D61D6C5ACA48C23A /* Pods-Edufy.debug.xcconfig */,
+				F6A954D4B0A8CDF3A2C9318D /* Pods-Edufy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6406253523736BA8001E5731 = {
 			isa = PBXGroup;
 			children = (
 				6406254023736BA8001E5731 /* Edufy */,
 				6406253F23736BA8001E5731 /* Products */,
+				41FA51D80162D231CC8780FD /* Pods */,
+				A15BB060FC42D0CBA76C0DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,67 @@
 		6406254023736BA8001E5731 /* Edufy */ = {
 			isa = PBXGroup;
 			children = (
+				D23A075023905D1B00EA3CE8 /* Helpers */,
+				D23A074F23905CF500EA3CE8 /* Controllers */,
+				D23A074E23905CDB00EA3CE8 /* Models */,
+				D23A074D23905CCE00EA3CE8 /* Views */,
+				D2B6F3F4238EF64100990811 /* GoogleService-Info.plist */,
 				6406254123736BA8001E5731 /* AppDelegate.swift */,
 				6406254323736BA8001E5731 /* SceneDelegate.swift */,
-				6406254523736BA8001E5731 /* ViewController.swift */,
-				6406254723736BA8001E5731 /* Main.storyboard */,
 				6406254A23736BAD001E5731 /* Assets.xcassets */,
-				6406254C23736BAD001E5731 /* LaunchScreen.storyboard */,
 				6406254F23736BAD001E5731 /* Info.plist */,
 			);
 			path = Edufy;
+			sourceTree = "<group>";
+		};
+		A15BB060FC42D0CBA76C0DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3736EA55414012826AB40416 /* Pods_Edufy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23A074D23905CCE00EA3CE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6406254C23736BAD001E5731 /* LaunchScreen.storyboard */,
+				778BB2E2237C824E00B52F91 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D23A074E23905CDB00EA3CE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77973992238D6F10009FB127 /* Quizdata.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D23A074F23905CF500EA3CE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				778BB2DE237C812F00B52F91 /* CategoriesViewController.swift */,
+				6406254523736BA8001E5731 /* ViewController.swift */,
+				64D886012373DC45002E01FF /* Quiz2ViewController.swift */,
+				640625632373B061001E5731 /* QuizViewController.swift */,
+				D29E9EBE239039040020A3EA /* ResultViewController.swift */,
+				640625612373A827001E5731 /* HomeViewController.swift */,
+				6406255F2373A66E001E5731 /* CreateViewController.swift */,
+				6406255D237391F0001E5731 /* LoginViewController.swift */,
+				775AEA11238A06D6009DD845 /* FirebaseAuthManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D23A075023905D1B00EA3CE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D29E9EBC2390051F0020A3EA /* gifext.swift */,
+				D2031B75238F7CC9000E6BD4 /* NSUIColor.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6406255223736BAD001E5731 /* Build configuration list for PBXNativeTarget "Edufy" */;
 			buildPhases = (
+				688DE361EF507C6778AC9C6F /* [CP] Check Pods Manifest.lock */,
 				6406253A23736BA8001E5731 /* Sources */,
 				6406253B23736BA8001E5731 /* Frameworks */,
 				6406253C23736BA8001E5731 /* Resources */,
+				E4630F1DB809A987644117D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +219,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778BB2E3237C824E00B52F91 /* Main.storyboard in Resources */,
+				D2B6F3F5238EF64100990811 /* GoogleService-Info.plist in Resources */,
 				6406254E23736BAD001E5731 /* LaunchScreen.storyboard in Resources */,
 				6406254B23736BAD001E5731 /* Assets.xcassets in Resources */,
-				6406254923736BA8001E5731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		688DE361EF507C6778AC9C6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Edufy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4630F1DB809A987644117D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Edufy/Pods-Edufy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Edufy/Pods-Edufy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Edufy/Pods-Edufy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6406253A23736BA8001E5731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29E9EBD2390051F0020A3EA /* gifext.swift in Sources */,
+				6406255E237391F0001E5731 /* LoginViewController.swift in Sources */,
+				778BB2DF237C812F00B52F91 /* CategoriesViewController.swift in Sources */,
 				6406254623736BA8001E5731 /* ViewController.swift in Sources */,
+				640625602373A66E001E5731 /* CreateViewController.swift in Sources */,
+				640625642373B061001E5731 /* QuizViewController.swift in Sources */,
+				775AEA12238A06D6009DD845 /* FirebaseAuthManager.swift in Sources */,
+				D2031B76238F7CC9000E6BD4 /* NSUIColor.swift in Sources */,
+				77973993238D6F10009FB127 /* Quizdata.swift in Sources */,
+				D29E9EBF239039040020A3EA /* ResultViewController.swift in Sources */,
 				6406254223736BA8001E5731 /* AppDelegate.swift in Sources */,
+				640625622373A827001E5731 /* HomeViewController.swift in Sources */,
 				6406254423736BA8001E5731 /* SceneDelegate.swift in Sources */,
+				64D886022373DC45002E01FF /* Quiz2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6406254723736BA8001E5731 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6406254823736BA8001E5731 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6406254C23736BAD001E5731 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,15 +422,17 @@
 		};
 		6406255323736BAD001E5731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45E01C3D61D6C5ACA48C23A /* Pods-Edufy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KN8WG8TW3D;
 				INFOPLIST_FILE = Edufy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.ranisingh.Edufy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manav.Edufy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,9 +441,11 @@
 		};
 		6406255423736BAD001E5731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A954D4B0A8CDF3A2C9318D /* Pods-Edufy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3JS563PF2;
 				INFOPLIST_FILE = Edufy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
